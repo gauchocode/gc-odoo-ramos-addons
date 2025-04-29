@@ -5,7 +5,7 @@ https://github.com/ingadhoc/account-invoicing.git
 https://github.com/ingadhoc/argentina-sale.git 
 https://github.com/ingadhoc/multi-store.git 
 https://github.com/ingadhoc/odoo-argentina.git 
-https://github.com/ingadhoc/odoo-argentina-ce.git 
+https://github.com/gauchocode/odoo-argentina-ce.git
 https://github.com/ingadhoc/product.git 
 https://github.com/ingadhoc/stock.git 
 https://github.com/OCA/reporting-engine.git 
