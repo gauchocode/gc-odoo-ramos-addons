@@ -1,4 +1,3 @@
-http://github.com/siseservicios/reves.git
 https://github.com/ingadhoc/account-financial-tools.git 
 https://github.com/ingadhoc/account-payment.git 
 https://github.com/ingadhoc/account-invoicing.git 
@@ -16,3 +15,5 @@ https://github.com/OCA/stock-logistics-availability
 https://github.com/OCA/sale-workflow.git 
 https://github.com/OCA/server-tools.git 
 https://github.com/odoomates/odooapps.git 
+http://github.com/siseservicios/reves.git
+

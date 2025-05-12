@@ -1,0 +1,16 @@
+<odoo>
+    <data>
+        <record id="picking_add_external_note" model="ir.ui.view">
+            <field name="name">stock.report_delivery_document</field>
+            <field name="type">qweb</field>
+            <field name="inherit_id" ref="stock.report_delivery_document"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@t-if='o.signature' and @name='signature']" position="before">
+                    <div style="text-align: center">
+                        <span t-field="o.location_id.comment" style="text-center;"/>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>
