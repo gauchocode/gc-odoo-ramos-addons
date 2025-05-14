@@ -8,6 +8,8 @@
     'category': 'Warehouse',
     'depends': ['base', 'sale', 'product', 'account'],
     'data': [
+        'views/product_pricelist_view.xml',
+        'views/account_move_view.xml',
     ],
     'installable': True,
     'application': False,

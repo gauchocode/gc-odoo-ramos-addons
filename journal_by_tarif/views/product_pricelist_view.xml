@@ -6,6 +6,7 @@
         <field name="arch" type="xml">
             <xpath expr="//page[@name='pricelist_config']" position="after">
                 <page name="journal_page" string="Journals">
+                    <label for="journal_ids" string="Journals"/>
                     <field name="journal_ids" widget="many2many_tags"/>
                 </page>
             </xpath>
