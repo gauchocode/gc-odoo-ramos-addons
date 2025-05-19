@@ -16,4 +16,5 @@ https://github.com/OCA/sale-workflow.git
 https://github.com/OCA/server-tools.git 
 https://github.com/odoomates/odooapps.git 
 http://github.com/siseservicios/reves.git
-
+https://github.com/OCA/server-auth
+https://github.com/OCA/product-attribute
