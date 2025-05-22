@@ -1,0 +1,31 @@
+<odoo>
+<record id="view_pricelist_item_tree" model="ir.ui.view">
+  <field name="name">product.pricelist.item.tree</field>
+  <field name="model">product.pricelist.item</field>
+  <field name="arch" type="xml">
+    <tree string="Items de Listas de Precio">
+      <field name="product_tmpl_id"/>
+      <field name="product_id"/>
+      <field name="pricelist_id"/>
+      <field name="fixed_price"/>
+      <!-- otros campos útiles:
+           <field name="percent_price"/>
+           <field name="price_discount"/>
+           <field name="min_quantity"/>
+      -->
+    </tree>
+  </field>
+</record>
+<record id="action_pricelist_item_tree" model="ir.actions.act_window">
+  <field name="name">Items de Lista de Precio</field>
+  <field name="res_model">product.pricelist.item</field>
+  <field name="view_mode">tree,form</field>
+  <field name="view_id" ref="view_pricelist_item_tree"/>
+</record>
+
+<menuitem id="menu_pricelist_items"
+          name="Items de Lista de Precio"
+          parent="sale.product_menu_catalog"
+          action="action_pricelist_item_tree"/>
+
+</odoo>
