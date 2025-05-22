@@ -1,8 +1,7 @@
 {
     'name': 'Tarif Restriction by User',
-    'version': '16.0.1.0.0',
+    'version': '16.0.1.0.1',
     'summary': 'Restrics what tarif can be used by each user',
-    'description': 'Restricts what tarif can be used by each user',
     'author': 'Gauchocode',
     'license': 'GPL-3',
     'category': 'Warehouse',
